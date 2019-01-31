@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/account"
+        android:icon="@mipmap/baseline_account_circle_black_18"
+        android:title="My Account"/>
+    <item android:id="@+id/settings"
+        android:icon="@mipmap/baseline_settings_black_18"
+        android:title="Settings"/>
+    <item android:id="@+id/grid"
+        android:icon="@mipmap/baseline_view_module_black_18"
+        android:title="Grid"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+    <item android:id="@+id/general"
+        android:icon="@mipmap/baseline_reorder_black_18"
+        android:title="General"/>
+
+
+
+</menu>
